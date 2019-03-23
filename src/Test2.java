@@ -1,4 +1,5 @@
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.junit.After;
 import org.junit.Assert;
@@ -11,8 +12,13 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Test2 {
+
+    private String magickWord = "Java";
+    private String magickWordMini = "java";
 
     private AppiumDriver driver;
 
@@ -44,43 +50,36 @@ public class Test2 {
 
     @Test
 
-    public void findSearch(){
+    public void findSearch() {
 //Жмём поиск
         waitForElementAndClick(
                 By.id("org.wikipedia:id/search_container"),
                 "Can Not Find Serch Bar",
                 5
         );
-//Ждём стартовую картинку
-        waitForElementPresent(
-                By.id("org.wikipedia:id/search_empty_image"),
-                "Can not Find start image",
-                5
-        );
+
 //Вводим слово в поиск
         waitForElementAndSendKeys(
                 By.id("org.wikipedia:id/search_src_text"),
-                "java",
+                magickWord,
                 "Can not Find search input",
                 5);
-//Убеждаемся что появился список статей (если статьи найдены стартовая картинка исчезнет)
-        waitForElementNotPresent(
-                By.id("org.wikipedia:id/search_empty_image"),
-                "Can Find start image",
-                5
-        );
-//Отменяем поиск
-        waitForElementAndClear(
-                By.id("org.wikipedia:id/search_src_text"),
-                "Search bar is not empty",
-                5
-        );
-//После отмены видим стартовую картинку
-        waitForElementPresent(
-                By.id("org.wikipedia:id/search_empty_image"),
-                "Can not Find start image",
-                5
-        );
+
+//Заполняем List элементами на эккране и проверяем наличие элемента поиска
+        List<WebElement> elements =driver.findElementsById("org.wikipedia:id/page_list_item_title");
+        for (WebElement webElement : elements) {
+            System.out.println(webElement.getText());
+
+            Assert.assertTrue(
+                    "Not all state include word "+magickWord,
+                    webElement.getText().matches(magickWord+".+?")
+                            || webElement.getText().matches(magickWordMini+".+?")
+                            || webElement.getText().matches(magickWord)
+                            || webElement.getText().matches(magickWordMini));
+        }
+
+
+
 
     }
 
