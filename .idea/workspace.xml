@@ -18,8 +18,8 @@
       <file leaf-file-name="Test2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1312">
-              <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+            <state relative-caret-position="108">
+              <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
@@ -48,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="68" />
     <option name="y" value="58" />
     <option name="width" value="1272" />
@@ -201,34 +201,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test2_findSearch - 2019.03.23 at 19h 54m 47s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 06m 46s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 19h 58m 45s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 07m 35s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 03m 54s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 08m 11s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 04m 57s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 09m 26s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 10m 29s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 36m 58s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 11m 01s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 37m 32s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 12m 31s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 39m 07s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 13m 24s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 40m 49s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 14m 15s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 41m 21s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 29m 59s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.24 at 02h 50m 59s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -274,8 +274,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+        <state relative-caret-position="108">
+          <caret line="73" column="61" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
