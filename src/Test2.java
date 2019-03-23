@@ -45,27 +45,42 @@ public class Test2 {
     @Test
 
     public void findSearch(){
-
+//Жмём поиск
         waitForElementAndClick(
                 By.id("org.wikipedia:id/search_container"),
                 "Can Not Find Serch Bar",
                 5
         );
-
-        WebElement title_element = waitForElementPresent(
-                By.id("org.wikipedia:id/search_src_text"),
-                "Can not Find Article title",
-                5);
-
-        String article_title = title_element.getAttribute("text");
-
-        Assert.assertEquals(
-                "Text field not empty",
-                "Search…",
-                article_title
+//Ждём стартовую картинку
+        waitForElementPresent(
+                By.id("org.wikipedia:id/search_empty_image"),
+                "Can not Find start image",
+                5
         );
-
-
+//Вводим слово в поиск
+        waitForElementAndSendKeys(
+                By.id("org.wikipedia:id/search_src_text"),
+                "java",
+                "Can not Find search input",
+                5);
+//Убеждаемся что появился список статей (если статьи найдены стартовая картинка исчезнет)
+        waitForElementNotPresent(
+                By.id("org.wikipedia:id/search_empty_image"),
+                "Can Find start image",
+                5
+        );
+//Отменяем поиск
+        waitForElementAndClear(
+                By.id("org.wikipedia:id/search_src_text"),
+                "Search bar is not empty",
+                5
+        );
+//После отмены видим стартовую картинку
+        waitForElementPresent(
+                By.id("org.wikipedia:id/search_empty_image"),
+                "Can not Find start image",
+                5
+        );
 
     }
 
@@ -80,6 +95,27 @@ public class Test2 {
 
         WebElement element = waitForElementPresent(by,error_message,timeoutInSecond);
         element.click();
+        return element;
+    }
+
+    private WebElement waitForElementAndSendKeys(By by, String value, String error_message, long timeoutInSecond){
+
+        WebElement element = waitForElementPresent(by,error_message,timeoutInSecond);
+        element.sendKeys(value);
+        return element;
+    }
+
+    private boolean waitForElementNotPresent (By by, String error_message, long timeoutInSecond){
+        WebDriverWait wait = new WebDriverWait(driver, timeoutInSecond);
+        wait.withMessage(error_message + "\n");
+        return wait.until(
+                ExpectedConditions.invisibilityOfElementLocated(by)
+        );
+    }
+
+    private WebElement waitForElementAndClear (By by, String error_message, long timeoutInSecond){
+        WebElement element = waitForElementPresent(by,error_message,timeoutInSecond);
+        element.clear();
         return element;
     }
 }

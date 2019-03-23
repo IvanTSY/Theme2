@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d6c04de-7f0e-485a-9cbc-91d15b4de893" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/java_client_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apks/org.wikipedia.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/java-client-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/selenium-server-standalone-3.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
+    <list default="true" id="7d6c04de-7f0e-485a-9cbc-91d15b4de893" name="Default" comment="Theme2 Ex2">
+      <change beforePath="$PROJECT_DIR$/out/production/Theme2Ex2/Test2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +18,8 @@
       <file leaf-file-name="Test2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+            <state relative-caret-position="1312">
+              <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
@@ -52,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="68" />
     <option name="y" value="58" />
     <option name="width" value="1272" />
@@ -194,13 +190,45 @@
       <option name="presentableId" value="Default" />
       <updated>1553340436309</updated>
     </task>
+    <task id="LOCAL-00001" summary="Theme2 Ex2">
+      <created>1553341438928</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553341438928</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test2_findSearch - 2019.03.23 at 18h 41m 06s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.23 at 19h 54m 47s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test2_findSearch - 2019.03.23 at 18h 41m 39s.xml">
+    <history-entry file="Test2_findSearch - 2019.03.23 at 19h 58m 45s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 03m 54s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 04m 57s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 10m 29s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 11m 01s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 12m 31s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 13m 24s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 14m 15s.xml">
+      <configuration name="Test2.findSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test2_findSearch - 2019.03.23 at 20h 29m 59s.xml">
       <configuration name="Test2.findSearch" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -210,14 +238,14 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3297546" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297546" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5214724" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -239,11 +267,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Theme2 Ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Theme2 Ex2" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        <state relative-caret-position="1312">
+          <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
